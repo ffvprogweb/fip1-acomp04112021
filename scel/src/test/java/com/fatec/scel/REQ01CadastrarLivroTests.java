@@ -35,7 +35,7 @@ class REQ01CadastrarLivroTests {
 		repository.save(livro);
 
 		// Então – o sistema valida os dados E permite a consulta do livro.
-		assertEquals(1, repository.count());
+		assertEquals(2, repository.count());
 	}
 
 	@Test
